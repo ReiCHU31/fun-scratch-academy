@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Infographic: Tương Lai Số</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+            max-height: 400px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 350px;
+            }
+        }
+        .stat-card h3 {
+            color: #118AB2;
+        }
+        .timeline-item {
+            position: relative;
+            padding-left: 2.5rem;
+            padding-bottom: 2rem;
+            border-left: 2px solid #FFD166;
+        }
+        .timeline-dot {
+            position: absolute;
+            left: -0.6rem;
+            top: 0;
+            height: 1rem;
+            width: 1rem;
+            background-color: #FF6B6B;
+            border-radius: 50%;
+            border: 2px solid white;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <header class="bg-gradient-to-r from-[#118AB2] to-[#06D6A0] text-white text-center py-16 px-4">
+        <h1 class="text-4xl md:text-6xl font-black uppercase tracking-wider">Tương Lai Số</h1>
+        <h2 class="text-xl md:text-2xl font-semibold mt-2">Vui Học Lập Trình Scratch Miễn Phí</h2>
+        <h2 class="text-xl md:text-2xl font-semibold mt-2">DIGITAL FUTURE - Fun and Free Scratch Programming</h2>
+        <p class="max-w-3xl mx-auto mt-4 text-gray-200">Một sáng kiến cộng đồng nhằm trang bị kỹ năng số và khơi nguồn sáng tạo cho trẻ em Việt Nam, ưu tiên các khu vực ngoài trung tâm đô thị lớn.</p>
+    </header>
+
+    <main class="container mx-auto p-4 md:p-8">
+        
+        <section id="problem" class="my-12">
+            <h2 class="text-3xl font-bold text-center mb-8 text-[#073B4C]">Tại Sao Dự Án Này Cần Thiết?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-md p-6 text-center stat-card">
+                    <div class="text-6xl mb-4">📚</div>
+                    <h3 class="text-xl font-bold mb-2">Khoảng Trống Trong Chương Trình Học</h3>
+                    <p class="text-gray-600">Lập trình Scratch chưa phải là môn học chính thức trong chương trình tiểu học, tạo ra khoảng trống kiến thức về tư duy lập trình.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-6 text-center stat-card">
+                    <div class="text-6xl mb-4">👨‍🏫</div>
+                    <h3 class="text-xl font-bold mb-2">Thiếu Hụt Nguồn Lực</h3>
+                    <p class="text-gray-600">Nhiều trường học, đặc biệt ở các khu vực ngoài trung tâm đô thị lớn, thiếu giáo viên được đào tạo và cơ sở vật chất để giảng dạy lập trình Scratch hiệu quả.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-6 text-center stat-card">
+                    <div class="text-6xl mb-4">🌍</div>
+                    <h3 class="text-xl font-bold mb-2">Bất Bình Đẳng Cơ Hội</h3>
+                    <p class="text-gray-600">Trẻ em ở các thành phố lớn (Hà Nội, TP. Hồ Chí Minh) có nhiều cơ hội tiếp cận giáo dục công nghệ hơn so với các khu vực tỉnh thành khác.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="solution" class="my-16 bg-white rounded-lg shadow-lg p-8">
+            <h2 class="text-3xl font-bold text-center mb-8 text-[#073B4C]">Giải Pháp Của Chúng Tôi: Một Hành Trình Sáng Tạo</h2>
+            <div class="relative">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <h3 class="font-bold text-xl text-[#FF6B6B]">Giai Đoạn 1: Giới Thiệu & Tuyển Sinh (Tháng 9-10/2025)</h3>
+                    <p class="text-gray-700 mt-2">Quảng bá và mở đơn đăng ký khóa học. Chúng tôi sẽ kết nối với các trường học và đối tác địa phương để lan tỏa thông tin, đảm bảo tiếp cận đúng đối tượng mục tiêu. Lễ khai giảng được tổ chức trực tuyến.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <h3 class="font-bold text-xl text-[#FFD166]">Giai Đoạn 2: Triển Khai Lớp Học (Tháng 11-12/2025)</h3>
+                    <p class="text-gray-700 mt-2">Tổ chức 1 khóa học Scratch cơ bản miễn phí trong 10 tuần (1 buổi/ tuần). Học sinh sẽ được học về tư duy thuật toán, các khối lệnh, và tự tay tạo ra các sản phẩm game và hoạt hình đầu tiên của mình.</p>
+                </div>
+                <div class="timeline-item border-l-transparent pb-0">
+                    <div class="timeline-dot"></div>
+                    <h3 class="font-bold text-xl text-[#06D6A0]">Giai Đoạn 3: Cuộc Thi & Vinh Danh (Tháng 11-12/2025)</h3>
+                    <p class="text-gray-700 mt-2">Phát động cuộc thi "Scratch-a-thon - Sáng Tạo Không Giới Hạn" để khuyến khích học sinh thể hiện tài năng. Các sản phẩm xuất sắc nhất sẽ được công bố và vinh danh trực tuyến.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="kpis" class="my-12">
+            <h2 class="text-3xl font-bold text-center mb-8 text-[#073B4C]">Mục Tiêu & Chỉ Số Đo Lường</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <h3 class="text-xl font-bold mb-2 text-[#118AB2]">Học Viên Tham Gia</h3>
+                    <p class="text-6xl font-black text-[#06D6A0]">100+</p>
+                    <p class="text-gray-600 mt-2">Thu hút ít nhất 100 học sinh từ lớp 3-6 tham gia khóa học, ưu tiên học sinh đến từ các tỉnh thành ngoài Hà Nội và TP. Hồ Chí Minh.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-6 flex flex-col justify-center">
+                    <h3 class="text-xl font-bold text-center mb-2 text-[#118AB2]">Tỷ Lệ Cấp Chứng Nhận</h3>
+                    <div class="chart-container">
+                        <canvas id="kpiChart"></canvas>
+                    </div>
+                    <p class="text-gray-600 mt-2 text-center">Mục tiêu 70 học sinh tham gia đủ ít nhất 8/10 buổi học để nhận chứng nhận hoàn thành khóa học.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <h3 class="text-xl font-bold mb-2 text-[#118AB2]">Bài Dự Thi</h3>
+                    <p class="text-6xl font-black text-[#FFD166]">100+</p>
+                    <p class="text-gray-600 mt-2">Khuyến khích và thu hút ít nhất 100 sản phẩm sáng tạo cho cuộc thi "Scratch-a-thon - Sáng Tạo Không Giới Hạn".</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="budget" class="my-16 bg-white rounded-lg shadow-lg p-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <h2 class="text-3xl font-bold text-[#073B4C]">Phân Bổ Ngân Sách Dự Kiến</h2>
+                    <p class="text-gray-700 mt-4">Với tổng ngân sách 30.000.000 VNĐ, chúng tôi cam kết sử dụng nguồn lực một cách minh bạch và hiệu quả, tập trung tối đa vào chất lượng giảng dạy và trải nghiệm của học viên.</p>
+                    <ul class="mt-4 space-y-2 text-gray-600">
+                        <li><span class="font-bold text-[#FF6B6B]">Chi phí nhân sự:</span> 53.3% - Đảm bảo đội ngũ giảng viên và trợ giảng chất lượng.</li>
+                        <li><span class="font-bold text-[#FFD166]">Chi phí tổ chức:</span> 20.7% - Bao gồm giải thưởng cuộc thi và các chi phí vận hành.</li>
+                        <li><span class="font-bold text-[#06D6A0]">Chi phí truyền thông:</span> 13.3% - Lan tỏa thông tin dự án đến đúng đối tượng.</li>
+                        <li><span class="font-bold text-[#118AB2]">Chi phí khác:</span> 12.7% - Bao gồm thuế và các chi phí dự phòng.</li>
+                    </ul>
+                </div>
+                <div class="chart-container">
+                    <canvas id="budgetChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-[#073B4C] text-white text-center p-8">
+        <h3 class="text-2xl font-bold">Fun Scratch Academy</h3>
+        <p class="mt-2">Đề xuất dự án gửi tới EAN COMMUNITY GRANT 2025</p>
+        <p class="text-sm text-gray-400 mt-1">https://www.facebook.com/funscratchacademy</p>
+    </footer>
+
+    <script>
+        function wrapLabels(label) {
+            const maxLength = 16;
+            if (typeof label === 'string' && label.length > maxLength) {
+                const words = label.split(' ');
+                const lines = [];
+                let currentLine = '';
+                words.forEach(word => {
+                    if ((currentLine + word).length > maxLength) {
+                        lines.push(currentLine.trim());
+                        currentLine = '';
+                    }
+                    currentLine += word + ' ';
+                });
+                lines.push(currentLine.trim());
+                return lines;
+            }
+            return label;
+        }
+
+        const tooltipTitleCallback = function(tooltipItems) {
+            const item = tooltipItems[0];
+            let label = item.chart.data.labels[item.dataIndex];
+            if (Array.isArray(label)) {
+                return label.join(' ');
+            } else {
+                return label;
+            }
+        };
+
+        const kpiCtx = document.getElementById('kpiChart').getContext('2d');
+        new Chart(kpiCtx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Đạt chứng nhận', 'Chưa đạt'],
+                datasets: [{
+                    label: 'Tỷ lệ học viên',
+                    data: [70, 30],
+                    backgroundColor: ['#06D6A0', '#e5e7eb'],
+                    borderColor: ['#ffffff'],
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                    },
+                    tooltip: {
+                        callbacks: {
+                            title: tooltipTitleCallback
+                        }
+                    }
+                }
+            }
+        });
+
+        const budgetCtx = document.getElementById('budgetChart').getContext('2d');
+        new Chart(budgetCtx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Nhân sự', 'Tổ chức', 'Truyền thông', 'Khác'].map(wrapLabels),
+                datasets: [{
+                    label: 'Phân bổ ngân sách (%)',
+                    data: [53.3, 20.7, 13.3, 12.7],
+                    backgroundColor: [
+                        '#FF6B6B',
+                        '#FFD166',
+                        '#06D6A0',
+                        '#118AB2'
+                    ],
+                    borderColor: '#ffffff',
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                    },
+                    tooltip: {
+                        callbacks: {
+                            title: tooltipTitleCallback
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
