@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
             font-family: 'Inter', sans-serif;
@@ -47,25 +48,36 @@
             border-radius: 50%;
             border: 2px solid white;
         }
+        .philosophy-card {
+             background-color: #f0fdfa;
+             border-left: 4px solid #06D6A0;
+        }
     </style>
 </head>
 <body class="text-gray-800">
 
     <header class="bg-gradient-to-r from-[#118AB2] to-[#06D6A0] text-white text-center py-16 px-4">
-        <h1 class="text-4xl md:text-6xl font-black uppercase tracking-wider">Tương Lai Số</h1>
-        <h2 class="text-xl md:text-2xl font-semibold mt-2">Vui Học Lập Trình Scratch Miễn Phí</h2>
+        <div class="flex justify-center items-center gap-4">
+            <a href="https://www.facebook.com/funscratchacademy" target="_blank">
+                <img src="img/funscratchlogo.jpg" alt="Fun Scratch Academy Logo" class="h-16 w-16 md:h-20 md:w-20 rounded-full border-2 border-white hover:opacity-80 transition-opacity">
+            </a>
+            <div>
+                <h1 class="text-4xl md:text-6xl font-black uppercase tracking-wider">Tương Lai Số</h1>
+                <h2 class="text-xl md:text-2xl font-semibold mt-2">Vui Học Lập Trình Scratch Miễn Phí</h2>
+            </div>
+        </div>
         <h2 class="text-xl md:text-2xl font-semibold mt-2">DIGITAL FUTURE - Fun and Free Scratch Programming</h2>
         <p class="max-w-3xl mx-auto mt-4 text-gray-200">Một sáng kiến cộng đồng nhằm trang bị kỹ năng số và khơi nguồn sáng tạo cho trẻ em Việt Nam, ưu tiên các khu vực ngoài trung tâm đô thị lớn.</p>
     </header>
 
     <main class="container mx-auto p-4 md:p-8">
-        
+
         <section id="problem" class="my-12">
             <h2 class="text-3xl font-bold text-center mb-8 text-[#073B4C]">Tại Sao Dự Án Này Cần Thiết?</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div class="bg-white rounded-lg shadow-md p-6 text-center stat-card">
                     <div class="text-6xl mb-4">📚</div>
-                    <h3 class="text-xl font-bold mb-2">Khoảng Trống Trong Chương Trình Học</h3>
+                    <h3 class="text-xl font-bold mb-2">Khoảng Trống Trong <span class="whitespace-nowrap">Chương Trình Học</span></h3>
                     <p class="text-gray-600">Lập trình Scratch chưa phải là môn học chính thức trong chương trình tiểu học, tạo ra khoảng trống kiến thức về tư duy lập trình.</p>
                 </div>
                 <div class="bg-white rounded-lg shadow-md p-6 text-center stat-card">
@@ -81,13 +93,27 @@
             </div>
         </section>
 
+        <section id="ean-fit" class="my-12 bg-white rounded-lg shadow-lg p-8">
+            <h2 class="text-3xl font-bold text-center mb-8 text-[#073B4C]">Sự Phù Hợp Với EAN Grants</h2>
+            <div class="flex flex-col md:flex-row justify-center gap-8 text-center">
+                <div class="flex-1">
+                   <h3 class="text-xl font-semibold text-[#118AB2]"><i class="fas fa-microchip mr-2"></i>Chuyển Đổi Số</h3>
+                   <p class="text-gray-600 mt-1">Trực tiếp trang bị kỹ năng số, khơi dậy đam mê công nghệ cho thế hệ tương lai.</p>
+                </div>
+                <div class="flex-1">
+                   <h3 class="text-xl font-semibold text-[#06D6A0]"><i class="fas fa-brain mr-2"></i>Phát Triển Bản Thân</h3>
+                   <p class="text-gray-600 mt-1">Giúp trẻ phát triển tư duy logic, kỹ năng giải quyết vấn đề và sự tự tin sáng tạo.</p>
+                </div>
+            </div>
+        </section>
+
         <section id="solution" class="my-16 bg-white rounded-lg shadow-lg p-8">
-            <h2 class="text-3xl font-bold text-center mb-8 text-[#073B4C]">Giải Pháp Của Chúng Tôi: Một Hành Trình Sáng Tạo</h2>
+            <h2 class="text-3xl font-bold text-center mb-8 text-[#073B4C]">Giải Pháp: Một Hành Trình Sáng Tạo</h2>
             <div class="relative">
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <h3 class="font-bold text-xl text-[#FF6B6B]">Giai Đoạn 1: Giới Thiệu & Tuyển Sinh (Tháng 9-10/2025)</h3>
-                    <p class="text-gray-700 mt-2">Quảng bá và mở đơn đăng ký khóa học. Chúng tôi sẽ kết nối với các trường học và đối tác địa phương để lan tỏa thông tin, đảm bảo tiếp cận đúng đối tượng mục tiêu. Lễ khai giảng được tổ chức trực tuyến.</p>
+                    <p class="text-gray-700 mt-2">Quảng bá và mở đơn đăng ký khóa học <strong>Tương Lai Số - Vui Học Lập Trình Scratch Miễn Phí</strong>. Chúng mình sẽ kết nối với các trường học và đối tác địa phương để lan tỏa thông tin, đảm bảo tiếp cận đúng đối tượng mục tiêu. Lễ khai giảng được tổ chức trực tuyến.</p>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
@@ -97,30 +123,76 @@
                 <div class="timeline-item border-l-transparent pb-0">
                     <div class="timeline-dot"></div>
                     <h3 class="font-bold text-xl text-[#06D6A0]">Giai Đoạn 3: Cuộc Thi & Vinh Danh (Tháng 11-12/2025)</h3>
-                    <p class="text-gray-700 mt-2">Phát động cuộc thi "Scratch-a-thon - Sáng Tạo Không Giới Hạn" để khuyến khích học sinh thể hiện tài năng. Các sản phẩm xuất sắc nhất sẽ được công bố và vinh danh trực tuyến.</p>
+                    <p class="text-gray-700 mt-2">Phát động cuộc thi <strong>Scratch-a-thon - Sáng Tạo Không Giới Hạn</strong> để khuyến khích học sinh thể hiện tài năng. Các sản phẩm xuất sắc nhất sẽ được công bố và vinh danh trực tuyến.</p>
                 </div>
             </div>
         </section>
 
         <section id="kpis" class="my-12">
             <h2 class="text-3xl font-bold text-center mb-8 text-[#073B4C]">Mục Tiêu & Chỉ Số Đo Lường</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="bg-white rounded-lg shadow-md p-6 text-center">
-                    <h3 class="text-xl font-bold mb-2 text-[#118AB2]">Học Viên Tham Gia</h3>
-                    <p class="text-6xl font-black text-[#06D6A0]">100+</p>
-                    <p class="text-gray-600 mt-2">Thu hút ít nhất 100 học sinh từ lớp 3-6 tham gia khóa học, ưu tiên học sinh đến từ các tỉnh thành ngoài Hà Nội và TP. Hồ Chí Minh.</p>
-                </div>
-                <div class="bg-white rounded-lg shadow-md p-6 flex flex-col justify-center">
-                    <h3 class="text-xl font-bold text-center mb-2 text-[#118AB2]">Tỷ Lệ Cấp Chứng Nhận</h3>
-                    <div class="chart-container">
-                        <canvas id="kpiChart"></canvas>
+            <div class="bg-white p-8 rounded-lg shadow-lg">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-center">
+                    <div class="text-center">
+                        <h3 class="text-xl font-bold mb-2 text-[#118AB2]">Học Viên Tham Gia</h3>
+                        <p class="text-6xl font-black text-[#06D6A0]">100+</p>
+                        <p class="text-gray-600 mt-2">Thu hút ít nhất 100 học sinh từ lớp 3-6 tham gia khóa học <strong>Tương Lai Số - Vui Học Lập Trình Scratch Miễn Phí</strong>, ưu tiên học sinh đến từ các tỉnh thành ngoài Hà Nội và TP. Hồ Chí Minh.</p>
                     </div>
-                    <p class="text-gray-600 mt-2 text-center">Mục tiêu 70 học sinh tham gia đủ ít nhất 8/10 buổi học để nhận chứng nhận hoàn thành khóa học.</p>
+                    <div class="text-center">
+                        <h3 class="text-xl font-bold mb-2 text-[#118AB2]">Tỷ Lệ Cấp Chứng Nhận</h3>
+                         <div class="chart-container mx-auto" style="height:200px; max-width: 200px;">
+                            <canvas id="kpiChart"></canvas>
+                        </div>
+                        <p class="text-gray-600 mt-2 text-center">Mục tiêu 70 học sinh tham gia đủ ít nhất 8/10 buổi học để nhận chứng nhận hoàn thành khóa học.</p>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="text-xl font-bold mb-2 text-[#118AB2]">Bài Dự Thi</h3>
+                        <p class="text-6xl font-black text-[#FFD166]">100+</p>
+                        <p class="text-gray-600 mt-2">Khuyến khích và thu hút ít nhất 100 sản phẩm sáng tạo cho cuộc thi <strong>Scratch-a-thon - Sáng Tạo Không Giới Hạn</strong>.</p>
+                    </div>
                 </div>
-                <div class="bg-white rounded-lg shadow-md p-6 text-center">
-                    <h3 class="text-xl font-bold mb-2 text-[#118AB2]">Bài Dự Thi</h3>
-                    <p class="text-6xl font-black text-[#FFD166]">100+</p>
-                    <p class="text-gray-600 mt-2">Khuyến khích và thu hút ít nhất 100 sản phẩm sáng tạo cho cuộc thi "Scratch-a-thon - Sáng Tạo Không Giới Hạn".</p>
+            </div>
+        </section>
+        
+        <section id="founder" class="my-12">
+            <h2 class="text-3xl font-bold text-center mb-8 text-[#073B4C]">Người Sáng Lập & Dẫn Dắt</h2>
+            <div class="bg-white rounded-lg shadow-lg p-8 flex flex-col md:flex-row items-center gap-8">
+                <img src="img/photoPhuong.jpg" alt="Chu Thị Minh Phương" class="w-40 h-40 rounded-full object-cover border-4 border-[#FFD166]">
+                <div class="text-center md:text-left">
+                    <h3 class="text-2xl font-bold text-[#073B4C]">ThS. Chu Thị Minh Phương</h3>
+                    <p class="text-gray-700 mt-2">Hành trình học tập và nghiên cứu tại Châu Âu đã truyền cảm hứng để chúng mình xây dựng một dự án với triết lý giáo dục lấy trẻ làm trung tâm.</p>
+                    <div class="text-gray-700 mt-4 space-y-2 text-left mx-auto md:ml-0">
+                        <p class="font-semibold">Kinh nghiệm giảng dạy và thực hiện các dự án cộng đồng liên quan:</p>
+                        <ul class="list-disc list-inside space-y-1">
+                            <li>2025 - nay: Sáng lập Fun Scratch Academy, dự án giáo dục phổ cập lập trình Scratch cho trẻ em Việt Nam.</li>
+                            <li>2021 - nay: Giảng dạy bộ môn Tin học cho học sinh tham gia kì thi lấy chứng chỉ quốc tế IGCSE.</li>
+                            <li>2021 - 2025: Giáo viên Tin học tại Minh Việt Academy, tổ chức giáo dục với mục tiêu giảm bất bình đẳng giáo dục, giảng dạy Scratch & Python cho khoảng 100 trẻ mỗi năm.</li>
+                            <li>2024 - nay: Đồng sáng lập Mental Health Resource Network, tập trung cải thiện sức khỏe tinh thần cho các nhà giáo dục ở vùng khó khăn (Dự án "Giáo Viên Bình An - Học Trò Vững Vàng" nhận tài trợ từ YSEALI Seeds for the Future 2025).</li>
+                            <li>2023 - nay: Đồng sáng lập Mental Health Aid 4All, dự án cộng đồng về sơ cứu sức khỏe tâm thần.</li>
+                        </ul>
+                    </div>
+                    <div class="mt-4 flex justify-center md:justify-start gap-4 text-2xl text-[#118AB2]">
+                        <a href="https://www.facebook.com/phuong.chuthiminh/" target="_blank" class="hover:text-[#06D6A0]"><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://www.linkedin.com/in/phuong-t-m-chu/" target="_blank" class="hover:text-[#06D6A0]"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://reichu31.github.io/" target="_blank" class="hover:text-[#06D6A0]"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="philosophy" class="my-16">
+            <h2 class="text-3xl font-bold text-center mb-8 text-[#073B4C]">Triết Lý Giảng Dạy</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="philosophy-card p-6 rounded-lg">
+                    <h3 class="text-xl font-bold text-[#073B4C] mb-2"><i class="fas fa-lightbulb mr-2 text-[#FF6B6B]"></i>Phát Triển Tư Duy Sáng Tạo</h3>
+                    <p class="text-gray-600">Khuyến khích sự tò mò và tạo không gian để trẻ tự do trải nghiệm, biến ý tưởng thành sản phẩm lập trình độc đáo.</p>
+                </div>
+                <div class="philosophy-card p-6 rounded-lg">
+                    <h3 class="text-xl font-bold text-[#073B4C] mb-2"><i class="fas fa-seedling mr-2 text-[#FFD166]"></i>Áp Dụng Kỷ Luật Tích Cực</h3>
+                    <p class="text-gray-600">Xây dựng lớp học dựa trên sự tôn trọng và hợp tác, giúp trẻ phát triển sự tự tin và kỹ năng xã hội.</p>
+                </div>
+                <div class="philosophy-card p-6 rounded-lg">
+                    <h3 class="text-xl font-bold text-[#073B4C] mb-2"><i class="fas fa-users mr-2 text-[#118AB2]"></i>Cấu Trúc Lớp Học</h3>
+                    <p class="text-gray-600">Mỗi lớp học có 1 Giáo viên và 2 Trợ giảng để đảm bảo học sinh nhận được sự quan tâm và hỗ trợ tốt nhất.</p>
                 </div>
             </div>
         </section>
@@ -129,12 +201,12 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                 <div>
                     <h2 class="text-3xl font-bold text-[#073B4C]">Phân Bổ Ngân Sách Dự Kiến</h2>
-                    <p class="text-gray-700 mt-4">Với tổng ngân sách 30.000.000 VNĐ, chúng tôi cam kết sử dụng nguồn lực một cách minh bạch và hiệu quả, tập trung tối đa vào chất lượng giảng dạy và trải nghiệm của học viên.</p>
+                    <p class="text-gray-700 mt-4">Với tổng ngân sách 30.000.000 VNĐ, chúng mình cam kết sử dụng nguồn lực một cách minh bạch và hiệu quả, tập trung tối đa vào chất lượng giảng dạy và trải nghiệm của học sinh.</p>
                     <ul class="mt-4 space-y-2 text-gray-600">
-                        <li><span class="font-bold text-[#FF6B6B]">Chi phí nhân sự:</span> 53.3% - Đảm bảo đội ngũ giảng viên và trợ giảng chất lượng.</li>
-                        <li><span class="font-bold text-[#FFD166]">Chi phí tổ chức:</span> 20.7% - Bao gồm giải thưởng cuộc thi và các chi phí vận hành.</li>
-                        <li><span class="font-bold text-[#06D6A0]">Chi phí truyền thông:</span> 13.3% - Lan tỏa thông tin dự án đến đúng đối tượng.</li>
-                        <li><span class="font-bold text-[#118AB2]">Chi phí khác:</span> 12.7% - Bao gồm thuế và các chi phí dự phòng.</li>
+                        <li><span class="font-bold text-[#FF6B6B]">Chi phí nhân sự (53.3%):</span> Đảm bảo đội ngũ giảng viên và trợ giảng chất lượng.</li>
+                        <li><span class="font-bold text-[#FFD166]">Chi phí tổ chức (20.7%):</span> Bao gồm giải thưởng cuộc thi và các chi phí vận hành.</li>
+                        <li><span class="font-bold text-[#06D6A0]">Chi phí truyền thông (13.3%):</span> Lan tỏa thông tin dự án đến đúng đối tượng.</li>
+                        <li><span class="font-bold text-[#118AB2]">Chi phí khác (12.7%):</span> Bao gồm thuế và các chi phí dự phòng.</li>
                     </ul>
                 </div>
                 <div class="chart-container">
@@ -148,7 +220,10 @@
     <footer class="bg-[#073B4C] text-white text-center p-8">
         <h3 class="text-2xl font-bold">Fun Scratch Academy</h3>
         <p class="mt-2">Đề xuất dự án gửi tới EAN COMMUNITY GRANT 2025</p>
-        <p class="text-sm text-gray-400 mt-1">https://www.facebook.com/funscratchacademy</p>
+        <p class="text-sm text-gray-400 mt-1">Cùng nhau ươm mầm tương lai số cho Việt Nam!</p>
+        <div class="mt-4 flex justify-center gap-4 text-2xl">
+            <a href="https://www.facebook.com/funscratchacademy" target="_blank" class="hover:text-[#06D6A0]"><i class="fab fa-facebook-square"></i></a>
+        </div>
     </footer>
 
     <script>
@@ -199,11 +274,20 @@
                 maintainAspectRatio: false,
                 plugins: {
                     legend: {
-                        position: 'bottom',
+                        display: false,
                     },
                     tooltip: {
                         callbacks: {
-                            title: tooltipTitleCallback
+                            label: function(context) {
+                                let label = context.label || '';
+                                if (label) {
+                                    label += ': ';
+                                }
+                                if (context.parsed !== null) {
+                                    label += context.parsed + '%';
+                                }
+                                return label;
+                            }
                         }
                     }
                 }
@@ -246,5 +330,3 @@
     </script>
 </body>
 </html>
-
-
